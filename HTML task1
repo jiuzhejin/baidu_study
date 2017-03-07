@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>任务一：零基础HTML编码</title>
+</head>
+<body>
+	<h1>网站一级标题</h1>
+	<ul>
+		<li><a href="">导航链接一</a></li>
+		<li><a href="">导航链接二</a></li>
+		<li><a href="">导航链接三</a></li>
+		<li><a href="">导航链接四</a></li>
+	</ul>
+	<h2>文章一级标题</h2>
+	<h2>文章二级标题</h2>
+	<p>文章作者 文章发表时间</p>
+	<p>这是一个很长的段落，让我们复制一下吧，哈哈。这是一个很长的段落，让我们复制一下吧，哈哈。这是一个很长的段落，让我们复制一下吧，哈哈。来一个换行。<br>			继续。这是一个很长的段落，让我们复制一下吧，哈哈。这是一个很长的段落，让我们复制一下吧，哈哈。这是一个很长的段落，让我们复制一下吧，哈哈。再换行。<br>
+	<a href="http://ife.baidu.com/" target="_blank">竟然隐藏了一个百度学院的链接http://ife.baidu.com/。直接加一个'target="_blank"'在新窗口跳转，不要影响这一页。</a>换行走起。<br>
+	<b>仔细一看，还有一个加粗呢</b>接下来是第二个加粗<strong>第二个使用的是strong标签，by the way，第一个是b标签。</strong>貌似没啥区别。。。接下来插入一张图片
+	</p>
+	<img src="./baidu.jpg" alt="没找到图片，就加一个alt" />
+	<p>这是一个很长的段落，让我们复制一下吧，哈哈。<i>貌似剩下的没啥了，一个斜体，<u>一个下划线</u>，就这样结束这一部分吧</i>。</p>
+
+	<h2>另一篇文章一级标题</h2>
+	<h3>文章二级标题（使用一个h3跟文章一级标题区分一下看看）</h3>
+	<p>如果没看出来跟上一篇有什么区别，则一段就略带而过吧，行不行？！文章内写一个ul列表，如下：<br>
+		<ul>
+			<li>列表项目一</li>
+			<li>列表项目二</li>
+			<li>列表项目三</li>
+		</ul>
+	</p>
+
+	<h2>h2标签，图片区域</h2>
+	<p>好看的图片</p>
+	<img src="./baidu.jpg" alt="没找到图片，就加一个alt" />	
+	<img src="./baidu.jpg" alt="没找到图片，就加一个alt" />
+	<p>直接img标签，两个img没换行。。。</p>
+	<div>
+		<img src="./baidu.jpg" alt="没找到图片，就加一个alt">
+	</div>
+	<div>
+		<img src="./baidu.jpg" alt="没找到图片，就加一个alt">
+	</div>
+	<p>以上两张分别加了个div，果然换行了。</p>
+
+	<h2>终于最后一篇文章标题了</h2>
+	<h3>其实现在也不知道文章二级标题起的作用</h3>
+	<p>p标签写作者和发布时间</p>
+	<ol>
+		<li>排名1</li>
+		<li>排名2</li>
+		<li>排名3</li>
+	</ol>
+	<p>上面列表是有序ol列表，下面是一个表格，给表格加了一个border="1"，好让你看出来是一个表格</p>
+	<table border="1">
+		<tr>
+			<th>表头</th>
+			<th>这是th标签</th>
+			<th>th标签就是加粗了？</th>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td>操作是加链接了。</td>
+		</tr>
+		<tr>
+			<td>总计</td>
+			<td colspan="2">colspan="2"列合并</td>
+		</tr>
+	</table>
+	
+	<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+	<h2>侧栏注册窗口标题</h2>
+	<p>请输入邮箱地址：<input type="text" name="address" placeholder="这是一个文本输入框" /></p>
+	<p>邮箱地址请按要求格式输入</p>
+	<p>请输入密码：<input type="password" name="psw" /> 请重复输入密码：<input type="password" name="psw2" /></p>
+	<p>密码请为6-16位英文数字</p>
+	<p>性别：<input type="radio" name="sex" value="male" checked="checked" />男<input type="radio" name="sex" value="female" />女</p><p>个人喜欢换行进行一下项谢谢</p>
+	<p>城市：
+		<select>
+			<option value="上海">上海</option>
+			<option value="北京" selected="selected">北京</option>
+			<option value="广州">广州</option>
+			<option value="深圳">深圳</option>
+		</select>
+	</p>
+	<p>爱好：
+		<input type="checkbox" name="hobby" value="sport" />运动
+		<input type="checkbox" name="hobby" value="art" />艺术
+		<input type="checkbox" name="hobby" value="science" />科学
+	</p>
+	<p>个人描述：
+		<textarea placeholder="这是一个多行输入框，请输入您的个人描述！"></textarea>
+	</p>
+	<input type="submit" name="letsgo" value="确认提交" />
+	<p>版权所有©『九折』™</p>
+</body>
+</html>
